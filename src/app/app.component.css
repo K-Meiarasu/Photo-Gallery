@@ -1,0 +1,64 @@
+.header{
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    margin: 2vw;
+    padding: 1vw;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 0.9vw;
+    margin: 2vw;
+    height: 50vh;
+}
+img{
+    width: 25%;
+    height: 30%;
+}
+.one{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 0.9vw;
+}
+.first>img{
+    width: 20vw;
+    height: 13vw;
+    grid-gap: 0.9vw;
+}
+.second>img{
+    width: 32vw;
+    height: 26.5vw;
+}
+.two{
+    display: grid;
+}
+.two>img{
+    width: 39vw;
+    height: 26.5vw;
+}
+.three{
+    display: grid;
+}
+.three>img{
+    width: 54vw;
+    height: 28vw;
+}
+.four{
+    display: grid;
+}
+.four>img{
+    width: 39vw;
+    height: 28vw;
+}
+.footer{
+    font-size: 2vw;
+    background-color: rgb(156, 156, 156);
+    color: black;
+    font-weight: bold;
+    margin-top: 31vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 0.8vw;
+}
